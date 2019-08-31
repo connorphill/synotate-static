@@ -1,0 +1,22 @@
+{
+  "name": "synotate-static",
+  "version": "1.0.0",
+  "description": "Static website for Synotate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorphill/synotate-static.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connorphill/synotate-static/issues"
+  },
+  "homepage": "https://github.com/connorphill/synotate-static#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

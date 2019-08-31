@@ -1,0 +1,57 @@
+body { 
+  /* The image used */
+  background-image: url("images/background.jpg");
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  width: 450px;
+  height: 115px;
+}
+
+.header {
+  color: #ffffff;
+  margin-top: 20px;
+  padding-left: 25px;
+}
+
+#mc_embed_signup {
+  background: transparent; 
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif;
+  color: #ffffff;
+}
+
+#mc_embed_signup label {
+  text-align: center;
+}
+
+#mc_embed_signup input.email {
+  width: 100%;
+}
+
+#mc_embed_signup input.button {
+  margin: auto;
+}
+
+#mc_embed_signup form {
+  width: 58%;
+  margin: auto;
+}
