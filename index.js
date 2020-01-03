@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var path = require('path');
 
-app.use('/dist', express.static(__dirname + '/dist'));
+app.use('/synotate-static', express.static(__dirname + '/dist'));
 
 // viewed at http://localhost:8080
 app.get('/', function(req, res) {
